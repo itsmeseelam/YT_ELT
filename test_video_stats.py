@@ -1,5 +1,5 @@
 import unittest
-from video_stats import batch_list
+from dags.api.video_stats import batch_list
 
 class TestBatchList(unittest.TestCase):
     def test_batch_list(self):
